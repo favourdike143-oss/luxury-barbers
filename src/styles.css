@@ -122,5 +122,5 @@
   .gold-border-glow {
     box-shadow: 0 0 0 1px oklch(0.78 0.12 80 / 30%), 0 20px 60px -20px oklch(0.78 0.12 80 / 25%);
   }
-  .section-padding { padding-block: clamp(4rem, 9vw, 8rem); }
+  .section-padding { padding-block: clamp(2.5rem, 5vw, 4.5rem); }
 }

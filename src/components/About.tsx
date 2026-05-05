@@ -1,4 +1,4 @@
-import img from "@/assets/celebrity-cut.jpg";
+import img from "@/assets/about-storefront.webp";
 
 export function About() {
   return (

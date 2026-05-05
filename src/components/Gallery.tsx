@@ -1,4 +1,7 @@
 import { useState } from "react";
+import g10 from "@/assets/gallery-10.jpg";
+import g17 from "@/assets/gallery-17.jpg";
+import gStorefront from "@/assets/about-storefront.webp";
 import g1 from "@/assets/gallery-1.jpg";
 import g2 from "@/assets/gallery-2.jpg";
 import g3 from "@/assets/gallery-3.jpg";
@@ -8,11 +11,38 @@ import g6 from "@/assets/gallery-6.jpg";
 import g7 from "@/assets/gallery-7.jpg";
 import g8 from "@/assets/gallery-8.webp";
 import g9 from "@/assets/gallery-9.webp";
+import g11 from "@/assets/gallery-11.jpg";
+import g12 from "@/assets/gallery-12.jpg";
+import g13 from "@/assets/gallery-13.jpg";
+import g14 from "@/assets/gallery-14.webp";
+import g15 from "@/assets/gallery-15.jpg";
+import g16 from "@/assets/gallery-16.jpg";
 
-const images = [g1, g2, g3, g4, g5, g6, g7, g8, g9];
+const primary = [g10, g17, gStorefront, g1, g2, g3, g4, g5, g6];
+const more = [g7, g8, g9, g11, g12, g13, g14, g15, g16];
 
 export function Gallery() {
   const [active, setActive] = useState<string | null>(null);
+
+  const renderGrid = (imgs: string[]) => (
+    <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
+      {imgs.map((src, i) => (
+        <button
+          key={i}
+          onClick={() => setActive(src)}
+          className="group block w-full overflow-hidden rounded-xl border border-border hover:border-gold/60 transition"
+        >
+          <img
+            src={src}
+            alt={`Luxury Barbers work ${i + 1}`}
+            loading="lazy"
+            className="w-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+        </button>
+      ))}
+    </div>
+  );
+
   return (
     <section id="gallery" className="section-padding">
       <div className="mx-auto max-w-7xl px-6">
@@ -22,22 +52,15 @@ export function Gallery() {
             LB <span className="text-gradient-gold italic">Live Showcase</span>
           </h2>
         </div>
-        <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
-          {images.map((src, i) => (
-            <button
-              key={i}
-              onClick={() => setActive(src)}
-              className="group block w-full overflow-hidden rounded-xl border border-border hover:border-gold/60 transition"
-            >
-              <img
-                src={src}
-                alt={`Luxury Barbers work ${i + 1}`}
-                loading="lazy"
-                className="w-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-            </button>
-          ))}
+        {renderGrid(primary)}
+
+        <div className="text-center max-w-2xl mx-auto mt-20 mb-14">
+          <p className="text-[11px] uppercase tracking-[0.4em] text-gold mb-4">More</p>
+          <h3 className="text-3xl md:text-4xl font-bold">
+            More <span className="text-gradient-gold italic">Live Showcase</span>
+          </h3>
         </div>
+        {renderGrid(more)}
       </div>
 
       {active && (

@@ -1,14 +1,15 @@
 import { useState } from "react";
-import g1 from "@/assets/hero-shave.jpg";
-import g2 from "@/assets/client-fade.jpg";
-import g3 from "@/assets/before-after.jpg";
-import g4 from "@/assets/twists-top.jpg";
-import g5 from "@/assets/celebrity-cut.jpg";
-import g6 from "@/assets/service-fade.jpg";
-import g7 from "@/assets/service-shave.jpg";
-import g8 from "@/assets/service-beard.jpg";
+import g1 from "@/assets/gallery-1.jpg";
+import g2 from "@/assets/gallery-2.jpg";
+import g3 from "@/assets/gallery-3.jpg";
+import g4 from "@/assets/gallery-4.jpg";
+import g5 from "@/assets/gallery-5.jpg";
+import g6 from "@/assets/gallery-6.jpg";
+import g7 from "@/assets/gallery-7.jpg";
+import g8 from "@/assets/gallery-8.webp";
+import g9 from "@/assets/gallery-9.webp";
 
-const images = [g1, g2, g3, g4, g5, g6, g7, g8];
+const images = [g1, g2, g3, g4, g5, g6, g7, g8, g9];
 
 export function Gallery() {
   const [active, setActive] = useState<string | null>(null);
@@ -18,7 +19,7 @@ export function Gallery() {
         <div className="text-center max-w-2xl mx-auto mb-14">
           <p className="text-[11px] uppercase tracking-[0.4em] text-gold mb-4">Gallery</p>
           <h2 className="text-4xl md:text-5xl font-bold">
-            Precision in <span className="text-gradient-gold italic">every cut</span>
+            LB <span className="text-gradient-gold italic">Live Showcase</span>
           </h2>
         </div>
         <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">

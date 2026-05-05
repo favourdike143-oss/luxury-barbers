@@ -5,7 +5,7 @@ import { About } from "@/components/About";
 import { Services } from "@/components/Services";
 import { Gallery } from "@/components/Gallery";
 import { WhyUs } from "@/components/WhyUs";
-import { Testimonials } from "@/components/Testimonials";
+
 import { Location } from "@/components/Location";
 import { BookForm } from "@/components/BookForm";
 import { CtaClose } from "@/components/CtaClose";
@@ -31,10 +31,9 @@ function Index() {
       <Navbar />
       <Hero />
       <About />
-      <Services />
       <Gallery />
+      <Services />
       <WhyUs />
-      <Testimonials />
       <Location />
       <BookForm />
       <CtaClose />

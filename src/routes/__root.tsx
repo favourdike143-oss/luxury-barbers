@@ -33,6 +33,12 @@ export const Route = createRootRoute({
       { name: "description", content: "Luxury Barbers (LB): premium haircuts, hot towel shaves and beard grooming. Lekki Phase 1, Lagos." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Luxury Barbers — Premium Grooming in Lekki Phase 1, Lagos" },
+      { name: "twitter:title", content: "Luxury Barbers — Premium Grooming in Lekki Phase 1, Lagos" },
+      { property: "og:description", content: "Luxury Barbers (LB): premium haircuts, hot towel shaves and beard grooming. Lekki Phase 1, Lagos." },
+      { name: "twitter:description", content: "Luxury Barbers (LB): premium haircuts, hot towel shaves and beard grooming. Lekki Phase 1, Lagos." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2b44bae4-1bd2-487b-8d52-03afb3d66e73/id-preview-36afea48--0fddd1ac-2d8c-4bb0-bf27-8f3577055998.lovable.app-1777991212975.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2b44bae4-1bd2-487b-8d52-03afb3d66e73/id-preview-36afea48--0fddd1ac-2d8c-4bb0-bf27-8f3577055998.lovable.app-1777991212975.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

@@ -31,7 +31,7 @@ export function About() {
             Every fade is sculpted. Every beard, considered. Every visit, an upgrade to the man you walk in as.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            {["Master Barbers", "Sterile Tools", "Private Lounge", "By Appointment"].map((t) => (
+            {["Master Barbers", "Sterile Tools", "Walk-In", "By Appointment"].map((t) => (
               <span key={t} className="text-xs uppercase tracking-widest border border-gold/30 text-gold px-4 py-2 rounded-full">
                 {t}
               </span>

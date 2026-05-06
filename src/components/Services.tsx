@@ -10,7 +10,7 @@ const services = [
   { name: "Straight Razor Shave", desc: "The traditional ritual, refined." },
   { name: "Eyebrow Trimming", desc: "Subtle definition that completes the look." },
   { name: "Children's Cuts", desc: "Premium grooming, gentle for the little gents." },
-  { name: "Men's Manicures", desc: "Polished hands speak before you do." },
+  { name: "Men's Manicure and Pedicure", desc: "Polished hands and feet speak before you do." },
   { name: "Shampoo & Conditioning", desc: "Salon-grade cleansing and treatment." },
 ];
 

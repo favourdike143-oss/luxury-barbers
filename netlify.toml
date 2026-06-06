@@ -1,0 +1,17 @@
+[build]
+  command = "bun run build"
+  publish = "dist"
+
+[build.environment]
+  NITRO_PRESET = "netlify"
+  NODE_VERSION = "20"
+
+# SSR/edge handler is emitted by the TanStack Start "netlify" target into
+# .netlify/functions-internal — Netlify auto-detects it. The catch-all redirect
+# below is a safety net so unmatched paths still hit the server entry instead
+# of returning 404 from the static publish dir.
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
+  force = false

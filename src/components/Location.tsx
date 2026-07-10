@@ -12,7 +12,7 @@ export function Location() {
               <span className="text-gold mt-1">◆</span>
               <div>
                 <div className="text-xs uppercase tracking-widest text-muted-foreground">Address</div>
-                <div className="mt-1">Road 14, 14 Adebayo Doherty Rd,<br />Lekki Phase 1, Lagos, Nigeria</div>
+                <div className="mt-1">No 4 Adebayo Doherty Road,<br />Lekki Phase 1, Lagos, Nigeria</div>
               </div>
             </div>
             <div className="flex items-start gap-4">

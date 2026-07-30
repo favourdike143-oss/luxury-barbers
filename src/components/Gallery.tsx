@@ -17,9 +17,16 @@ import g13 from "@/assets/gallery-13.jpg";
 import g14 from "@/assets/gallery-14.webp";
 import g15 from "@/assets/gallery-15.jpg";
 import g16 from "@/assets/gallery-16.jpg";
+import n1 from "@/assets/IMG-20260730-WA0001.jpg.asset.json";
+import n2 from "@/assets/IMG-20260730-WA0002.jpg.asset.json";
+import n3 from "@/assets/IMG-20260730-WA0003.jpg.asset.json";
+import n6 from "@/assets/IMG-20260730-WA0006.jpg.asset.json";
+import n8 from "@/assets/IMG-20260730-WA0008.jpg.asset.json";
+import n12 from "@/assets/IMG-20260730-WA0012.jpg.asset.json";
+import n13 from "@/assets/IMG-20260730-WA0013.jpg.asset.json";
 
-const primary = [g10, g17, gStorefront, g1, g2, g3, g4, g5, g6];
-const more = [g7, g8, g9, g11, g12, g13, g14, g15, g16];
+const primary = [n1.url, n2.url, n13.url, g10, g17, gStorefront, g1, g2, g3, g4, g5, g6];
+const more = [n8.url, n3.url, n12.url, n6.url, g7, g8, g9, g11, g12, g13, g14, g15, g16];
 
 export function Gallery() {
   const [active, setActive] = useState<string | null>(null);

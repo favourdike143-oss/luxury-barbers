@@ -1,4 +1,6 @@
-import img from "@/assets/about-storefront.webp";
+import imgAsset from "@/assets/IMG-20260730-WA0006.jpg.asset.json";
+
+const img = imgAsset.url;
 
 export function About() {
   return (

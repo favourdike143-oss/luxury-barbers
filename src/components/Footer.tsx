@@ -18,7 +18,7 @@ export function Footer() {
         </div>
         <div>
           <div className="text-xs uppercase tracking-widest text-gold mb-4">Visit</div>
-          <p className="text-sm text-muted-foreground">No 4 Adebayo Doherty Road<br />Lekki Phase 1, Lagos</p>
+          <p className="text-sm text-muted-foreground">Luxury Barbers, Ezra Mall<br />4 Adebayo Doherty Road<br />Lekki Phase 1, Lagos</p>
         </div>
         <div>
           <div className="text-xs uppercase tracking-widest text-gold mb-4">Contact</div>

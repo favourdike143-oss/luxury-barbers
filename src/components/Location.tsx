@@ -12,7 +12,7 @@ export function Location() {
               <span className="text-gold mt-1">◆</span>
               <div>
                 <div className="text-xs uppercase tracking-widest text-muted-foreground">Address</div>
-                <div className="mt-1">No 4 Adebayo Doherty Road,<br />Lekki Phase 1, Lagos, Nigeria</div>
+                <div className="mt-1">Luxury Barbers, Ezra Mall,<br />4 Adebayo Doherty Road,<br />Lekki Phase 1, Lagos, Nigeria</div>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -34,7 +34,7 @@ export function Location() {
         <div className="rounded-2xl overflow-hidden gold-border-glow aspect-[4/3]">
           <iframe
             title="Luxury Barbers Location"
-            src="https://www.google.com/maps?q=14+Adebayo+Doherty+Rd,+Lekki+Phase+1,+Lagos&output=embed"
+            src="https://www.google.com/maps?q=Ezra+Mall,+4+Adebayo+Doherty+Rd,+Lekki+Phase+1,+Lagos&output=embed"
             className="w-full h-full border-0 grayscale-[40%] contrast-110"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

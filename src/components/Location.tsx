@@ -34,7 +34,7 @@ export function Location() {
         <div className="rounded-2xl overflow-hidden gold-border-glow aspect-[4/3]">
           <iframe
             title="Luxury Barbers Location"
-            src="https://www.google.com/maps?q=14+Adebayo+Doherty+Rd,+Lekki+Phase+1,+Lagos&output=embed"
+            src="https://www.google.com/maps?q=Ezra+Mall,+4+Adebayo+Doherty+Rd,+Lekki+Phase+1,+Lagos&output=embed"
             className="w-full h-full border-0 grayscale-[40%] contrast-110"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

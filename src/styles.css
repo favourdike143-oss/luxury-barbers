@@ -124,3 +124,14 @@
   }
   .section-padding { padding-block: clamp(2.5rem, 5vw, 4.5rem); }
 }
+
+/* Hide Lovable "Edit with Lovable" badge on published deployments */
+#lovable-badge,
+.lovable-badge,
+[class*="lovable-badge"],
+[id*="lovable-badge"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
